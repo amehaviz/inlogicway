@@ -7,10 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My first Bulma website</title>
   <link rel="stylesheet" href="css/main.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
-<body>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+<body class="has-navbar-fixed-top">
+  <!-- Navbar -->
+  <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
         <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
@@ -25,16 +27,16 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item">
+        <a class="navbar-item" href="#">
           Home
         </a>
 
-        <a class="navbar-item">
+        <a class="navbar-item" href="#">
           Documentation
         </a>
 
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
+          <a class="navbar-link" href="#">
             More
           </a>
 
@@ -70,6 +72,8 @@
       </div>
     </div>
   </nav>
+  <!-- End Navbar -->
+
   <section class="hero is-medium is-primary">
     <div class="hero-body">
       <div class="container">
