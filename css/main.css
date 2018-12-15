@@ -1,10 +1,4 @@
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
-@keyframes spinAround {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(359deg); } }
-
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
@@ -4494,7 +4488,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
 a.navbar-link:hover,
 a.navbar-link.is-active {
   background-color: whitesmoke;
-  color: #0090ea; }
+  color: #d50000; }
 
 .navbar-item {
   flex-grow: 0;
@@ -4593,7 +4587,7 @@ a.navbar-link.is-active {
       background-color: transparent !important; }
     .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
       background-color: whitesmoke;
-      color: #0a0a0a; }
+      color: #d50000; }
     .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
       background-color: whitesmoke;
       color: #0090ea; }
@@ -4621,7 +4615,7 @@ a.navbar-link.is-active {
       pointer-events: auto;
       transform: translateY(0); }
   .navbar-link::after {
-    border: 1px solid #0090ea;
+    border: 1px solid #d50000;
     border-right: 0;
     border-top: 0;
     content: " ";
@@ -4664,7 +4658,7 @@ a.navbar-link.is-active {
       padding-right: 3rem; }
       .navbar-dropdown a.navbar-item:hover {
         background-color: whitesmoke;
-        color: #0a0a0a; }
+        color: #d50000; }
       .navbar-dropdown a.navbar-item.is-active {
         background-color: whitesmoke;
         color: #0090ea; }
@@ -6503,3 +6497,13 @@ label.panel-block {
 .footer {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
+
+.serif-nav {
+  font-family: Georgia, Times, Times New Roman, serif;
+  color: #d50000; }
+
+.serif-nav:hover {
+  color: #212121; }
+
+.serif-content {
+  font-family: Georgia, Times, Times New Roman, serif; }

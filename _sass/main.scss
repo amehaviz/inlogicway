@@ -14,7 +14,25 @@ $orange: hsl(26, 100%, 50%);
 $primary: $red;
 
 // Override Components
+$navbar-item-hover-color: $red;
+$navbar-dropdown-arrow: $red;
+$navbar-dropdown-item-hover-color: $red;
 
-
-// Required SASS
+// Required SASS source
 @import "../node_modules/bulma/bulma";
+
+// Add New Class Components
+$font-serif: Georgia,Times,Times New Roman,serif;
+
+.serif-nav {
+	font-family: $font-serif;
+	color: $red;
+}
+
+.serif-nav:hover {
+	color: $grey-dark;
+}
+
+.serif-content {
+	font-family: $font-serif;
+}
