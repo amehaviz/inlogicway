@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+// Brand Colors
+$red: hsl(0, 100%, 41.8%);
+$blue: hsl(203, 100%, 45.9%);
+$purple: hsl(280, 100%, 50%);
+$green: hsl(145, 100%, 39.2%);
+$grey-dark: hsl(0, 0%, 12.9%);
+$grey-darker: hsl(0, 0%, 12.9%);
+$yellow: hsl(50, 100%, 50%);
+$cyan: hsl(188, 100%, 41.6%);
+$orange: hsl(26, 100%, 50%);
+
+// Global Variable
+$primary: $red;
+
+// Override Components
+$navbar-item-hover-color: $red;
+$navbar-dropdown-arrow: $red;
+$navbar-dropdown-item-hover-color: $red;
+
+// Required SASS source
+@import "../node_modules/bulma/bulma";
+
+// Add New Class Components
+$font-serif: Georgia,Times,Times New Roman,serif;
+
+.serif-nav {
+	font-family: $font-serif;
+	color: $red;
+}
+
+.serif-nav:hover {
+	color: $grey-dark;
+}
+
+.serif-content {
+	font-family: $font-serif;
+}
