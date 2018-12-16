@@ -4,6 +4,7 @@ Thumbs.db
 .DS_Store
 .ruby-version
 npm-debug.log
+package-lock.json
 
 # Folders
 
