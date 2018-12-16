@@ -4,8 +4,6 @@
 .ruby-version
 npm-debug.log
 Thumbs.db
-.package.json
-.package-lock.json
 
 # Folders
 

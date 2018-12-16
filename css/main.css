@@ -4532,7 +4532,7 @@ a.navbar-item,
   .navbar-link:hover,
   .navbar-link.is-active {
     background-color: #fafafa;
-    color: #d50000; }
+    color: #0090ea; }
 
 .navbar-item {
   display: block;
@@ -4567,7 +4567,7 @@ a.navbar-item,
 .navbar-link:not(.is-arrowless) {
   padding-right: 2.5em; }
   .navbar-link:not(.is-arrowless)::after {
-    border-color: #d50000;
+    border-color: #0090ea;
     margin-top: -0.375em;
     right: 1.125em; }
 

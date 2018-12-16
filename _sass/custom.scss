@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 // Brand Colors
 $red: hsl(0, 100%, 41.8%);
 $blue: hsl(203, 100%, 45.9%);
@@ -13,12 +15,10 @@ $orange: hsl(26, 100%, 50%);
 $primary: $red;
 
 // Override Components
-$navbar-item-hover-color: $red;
-$navbar-dropdown-arrow: $red;
 $navbar-dropdown-item-hover-color: $red;
 
 // Required SASS source
-@import "../node_modules/bulma/bulma";
+@import "../node_modules/bulma/bulma.sass";
 
 // Additional Font Style
 $font-serif: Georgia,Times,Times New Roman,serif;
