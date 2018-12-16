@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 // Brand Colors
 $red: hsl(0, 100%, 41.8%);
 $blue: hsl(203, 100%, 45.9%);
@@ -22,18 +20,15 @@ $navbar-dropdown-item-hover-color: $red;
 // Required SASS source
 @import "../node_modules/bulma/bulma";
 
-// Add New Class Components
+// Additional Font Style
 $font-serif: Georgia,Times,Times New Roman,serif;
-
 .serif-nav {
 	font-family: $font-serif;
 	color: $red;
 }
-
 .serif-nav:hover {
 	color: $grey-dark;
 }
-
 .serif-content {
 	font-family: $font-serif;
 }
